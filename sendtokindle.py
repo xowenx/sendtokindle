@@ -459,7 +459,7 @@ class MainWindow(object):
         """
         username = self.application.config['settings']['user']['kindle-name']
         free = self.free_radiobutton.get_active()
-        host = 'free.kindle.com' if free else 'kindle.com'
+        host = 'amazon.cn' if free else 'kindle.com'
         return "%s@%s" % (username, host)
 
     def show_configure_window(self):
